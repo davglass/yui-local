@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Local Combo Test</title>
+</head>
+<body class="yui3-skin-sam">
+
+<span class="horiz_slider"></span>
+
+<script src="http://127.0.0.1:3000/"></script>
+<script>
+YUI().use('slider', function(Y) {
+    console.log('Done!');
+    var xSlider = new Y.Slider();
+    xSlider.render( ".horiz_slider" );
+});
+</script>
+</body>
+</html>
