@@ -22,3 +22,10 @@ Now include this in your page:
 
 That will load the YUI seed file and setup a config to use a local
 combo handler served from the local `./build/` directory.
+
+The seed also supports filters:
+
+    <script src="http://127.0.0.1:5000/seed?filter=raw"></script>
+    <script src="http://127.0.0.1:5000/seed?filter=debug"></script>
+
+This will also set the default combo filter to the same thing.
