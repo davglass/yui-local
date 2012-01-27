@@ -1,6 +1,6 @@
 {
     "name": "yui-local",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "YUI Local Combo Handler",
     "author": "Dav Glass <davglass@gmail.com>",
     "bugs": { "url" : "https://github.com/davglass/yui-local/issues" },
